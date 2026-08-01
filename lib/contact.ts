@@ -9,10 +9,10 @@
 export const WHATSAPP_NUMBER = process.env.WHATSAPP_NUMBER ?? "918595089080"
 
 // Temporary email placeholder — change this single constant later.
-export const CONTACT_EMAIL = "hello@projectgaj.in"
+export const CONTACT_EMAIL = "info@projectgaj.in"
 
 // Replace with the Project GAJ LinkedIn URL when available.
-export const LINKEDIN_URL = "#"
+export const LINKEDIN_URL = "https://www.linkedin.com/company/project-gaj/"
 
 // Pre-filled WhatsApp message.
 export const WHATSAPP_MESSAGE =
