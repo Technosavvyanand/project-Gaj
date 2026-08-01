@@ -1,0 +1,12 @@
+import type { MetadataRoute } from "next"
+
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
+    sitemap: "https://projectgaj.in/sitemap.xml",
+    host: "https://projectgaj.in",
+  }
+}
